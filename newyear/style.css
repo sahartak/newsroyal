@@ -1,0 +1,143 @@
+@charset "utf-8";
+body{background-color:#00CC33; 
+background-image:url(img/bg.jpg);
+background-repeat:no-repeat;
+background-attachment:fixed;
+min-height:700px;
+}
+
+#happy {
+position:relative;
+margin: 0 auto;
+margin-top:60px;
+width:1000px;
+height:625px;
+background-image:url(img/NEWYEARALL.jpg);
+background-repeat:no-repeat;
+border-radius:30px;
+box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+display:none;}
+
+#newyear {
+position:relative;
+margin: 0 auto;
+margin-top:60px;
+width:601px;
+height:537px;
+background-image:url(img/Dyavolik.jpg);
+background-repeat:no-repeat;
+border-radius:30px;
+box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+display:none;}
+
+#anim{
+position:relative;
+margin: 0 auto;
+margin-top:60px;
+width:700px;
+height:500px;
+background-image:url(img/animation.gif);
+background-repeat:no-repeat;
+border-radius:30px;
+box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+display:none;}
+
+#dyavolik {
+position: absolute;
+float:left;
+left:-170px;
+top:80px;
+background-image: url(img/Zaruhi.png);
+width:166px;
+height:66px;
+display:none;}
+#ani {
+position: absolute;
+float:right;
+right:-200px;
+top:110px;
+background-image: url(img/Ani.png);
+width:109px;
+height:38px;
+display:none;}
+#mariam {
+position: absolute;
+float:left;
+left:-170px;
+top:280px;
+background-image: url(img/Mariam.png);
+width:151px;
+height:43px;
+display:none;}
+#mariamik {
+position: absolute;
+float:right;
+right:-200px;
+top:280px;
+background-image: url(img/Mariamik.png);
+width:191px;
+height:66px;
+display:none;}
+#shnorhavor {
+position: absolute;
+float:left;
+left:-200px;
+top:30px;
+background-image: url(img/shnorhavor.png);
+width:269px;
+height:198px;
+display:none;
+}
+#y2014 {
+position: absolute;
+float:right;
+right:17px;
+top:400px;
+background-image: url(img/2014.png);
+width:294px;
+height:138px;
+}
+#anim1{
+position:relative;
+margin: 0 auto;
+margin-top:60px;
+width:550px;
+height:400px;
+background-image:url(img/anim1.gif);
+background-repeat:no-repeat;
+border-radius:20px;
+box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+display:none;}
+#anim2{
+position:relative;
+margin: 0 auto;
+margin-top:60px;
+width:500px;
+height:313px;
+background-image:url(img/anim2.gif);
+background-repeat:no-repeat;
+border-radius:20px;
+box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+display:none;}
+#anim3{
+position:relative;
+margin: 0 auto;
+margin-top:60px;
+width:600px;
+height:453px;
+background-image:url(img/anim3.gif);
+background-repeat:no-repeat;
+border-radius:20px;
+box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+display:none;}
+#anim4{
+position:relative;
+margin: 0 auto;
+margin-top:60px;
+width:600px;
+height:414px;
+background-image:url(img/anim4.gif);
+background-repeat:no-repeat;
+border-radius:20px;
+box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+display:none;}

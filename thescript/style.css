@@ -1,0 +1,121 @@
+#wrapper{bprder:1px solid red;
+        width:1200px;
+		  background: url(nkarner/i1.jpg);
+		  margin:0 auto;
+		  background-size: 100%;
+         }
+#header{border:1px solid black;
+        width:1070px;
+		height:250px;
+		margin-left:50px; 
+		 box-shadow: 7px 7px 3px #505050;
+		  border-radius:25px;
+		  margin-top:10px;
+		  background-image: url(nkarner/s5.jpg);
+		}
+#header img {border-radius:25px;}
+#mek{   border:1px solid black;
+        float:left;
+        width:220px;
+		height:600px;
+		margin-top:50px;
+		margin-left:50px;
+		 background-color:#FFE4C4;
+		 box-shadow: 7px 7px 3px #505050;
+		 border-radius:15px;
+		
+     }		
+#erku  {border:1px solid black;
+       float:left;
+       width:800px;
+	   margin:50px 0 100px 30px; 
+	    background-color:#FFE4C4;
+		padding:10px 10px 10px 10px;
+		box-shadow: 7px 7px 3px #505050;
+border-radius:15px;
+       }
+#ereq{ 
+       border:1x solid black;
+     float:left;
+	  width:300px;
+	
+	  
+	  }	   
+#chors{ 
+       border:2px solid black;
+      height:50px;
+	  width:800px;
+	     background-color:#F5DEB3;
+				 
+	  }	   
+ img.top {
+margin-top:20px;
+margin-left:20px;
+margin-right:20px;
+}
+
+	
+	#hing{ 
+	 width:350px; 
+	 float: left;
+	 margin-right: 40px;
+     border:1x solid black ;
+     background-color:#F5DEB3;	
+	 margin-left:20px; 
+	 height:2050px;
+}
+	  #vec{ height:2050px;
+	width:350px;
+	float: right;
+    border:1x solid black ;
+    background-color:#F5DEB3;
+	float:left;
+	  
+}
+	  
+	
+	#yot{ 
+	 width:350px; 
+	 float: left;
+	 margin-right: 40px;
+     border:1x solid black ;
+     background-color:#F5DEB3;	
+	 margin-left:20px; 
+	 height:1400px;
+}
+	  #ut{ height:1400px;
+	width:350px;
+	float: right;
+    border:1x solid black ;
+    background-color:#F5DEB3;
+	float:left;
+	  
+}
+	  
+	  
+	ul {background-color:#fdd3a2; 
+	border-radius:20px;
+	margin-left:10px;
+	margin-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:12px;
+		}    
+	
+
+ul li{
+	list-style-type:none;	
+	}
+	ul li a {
+	color:#3D1F00;
+
+ text-decoration:none;}
+	ul li a:hover {
+	margin-left:10px;
+	color: #000000
+;
+	font-weight:bold;}
+a.active {margin-left:10px;
+	color: #000000;
+	font-weight:bold;}
+	h2 ,h4{text-align:center;}

@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="http//maps/documentation/javascript/examples/default.css">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=weather"></script>
+    <script>
+      function initialize() {
+        var mapOptions = {
+          zoom: 8,
+          center: new google.maps.LatLng(40.161519,45.093121),
+          mapTypeId: google.maps.MapTypeId.HYBRID
+        };
+
+        var map = new google.maps.Map(document.getElementById('map_canvas'),
+            mapOptions);
+
+        var weatherLayer = new google.maps.weather.WeatherLayer({
+          temperatureUnits: google.maps.weather.TemperatureUnit.CELSIUS
+        });
+        weatherLayer.setMap(map);
+
+        var cloudLayer = new google.maps.weather.CloudLayer();
+        cloudLayer.setMap(map);
+      }
+    </script>
+    <style>
+      body{ overflow-y: hidden; margin: 0; padding: 0; }
+      #map_canvas{ width: 600px; height: 380px; }
+    </style>
+  </head>
+  <body onload="initialize()">
+    <div id="map_canvas"></div>
+  </body>
+</html>

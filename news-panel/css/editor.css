@@ -1,0 +1,84 @@
+*{
+	font-family:"arnamu";
+}
+.clear{
+	clear:both;
+}
+.subjectBox{
+	width:100%;
+	border:1px solid #e0e0e0;
+}
+.subjectBox .title{
+	width:100%;
+	height:27px;
+	background:url(../../epanel/css/js/redactor/i/bg.png);
+	text-align:center;
+	padding-top:5px;
+	font-size:18px;
+	font-weight:bold;
+}
+.subjectBox .subject{
+	width:100%;
+	height:50px;
+	margin:0;padding:0;
+	border:none;
+	resize:none;
+	font-size:22px;
+	font-family:arial;
+}
+.subjectBox .subject:focus{
+	outline:0;
+}
+.catBox .chBox input{
+	margin-right:5px;
+}
+.langBox input{
+	margin-right:5px;
+}
+.catBox-container{
+	margin-top:10px;
+}
+.catBox{
+	border:1px dashed black;
+	padding:5px;
+	float:left;
+	margin-right:10px;
+}
+.leftBlock{ float: left; width: 654px; }
+.rightBlock{ float: left; width: 290px; }
+.post_title{
+	width:640px;
+	resize:none;
+	border:1px dashed black;
+	margin-bottom:10px;
+	margin-top:5px;
+	font-size:15px;
+	padding:5px;
+}
+#text_editor{
+	width:646px;
+	height:400px;
+	margin:0 auto;
+}
+.metadesc{
+	width:200px;
+	resize:none;
+	border:1px dashed black;
+	margin-bottom:10px;
+	margin-top:5px;
+	font-size:15px;
+	padding:5px;
+	display:block;
+}
+.metakey{
+	margin-left:10px;
+}
+.imageBox{ width: 240px; }
+.catBox-category{
+	margin:5px 0 0 10px;
+	max-width: 250px;
+}
+.catBox-category-container{
+	float:right;
+	margin-top:20px;
+}
