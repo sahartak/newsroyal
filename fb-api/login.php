@@ -3,9 +3,9 @@ session_start();
 define('FACEBOOK_SDK_V4_SRC_DIR', 'facebook-sdk-v5/');
 require_once 'facebook-sdk-v5/autoload.php';
 $fb = new Facebook\Facebook(array(
-  'app_id' => '1645796052337060',
-  'app_secret' => '4aa059eca21f6513886a2774025fd1a4',
-  'default_graph_version' => 'v2.2',
+  'app_id' => '765618716875409',
+  'app_secret' => '5e3c1a44bf709e2be25a3b3f4bb2ec9d',
+  'default_graph_version' => 'v2.5',
   ));
 
 $helper = $fb->getRedirectLoginHelper();
