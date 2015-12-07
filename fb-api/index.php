@@ -1,4 +1,5 @@
 <?php
+die('z59');
 session_start();
 define('FACEBOOK_SDK_V4_SRC_DIR', 'facebook-sdk-v5/');
 require_once 'facebook-sdk-v5/autoload.php';
